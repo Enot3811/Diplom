@@ -1,0 +1,19 @@
+h5_path;split_number;buffer_size;crop_shape;aug;avg_time
+/data/karaev/binaries/synth_files/synth600.h5;1;1;[96, 96, 96];gen;116.50374125850067
+/data/karaev/binaries/synth_files/synth600.h5;1;1;[96, 96, 96];map;9.38725613400129
+/data/karaev/binaries/synth_files/synth600.h5;1;4;[96, 96, 96];gen;44.33645044949844
+/data/karaev/binaries/synth_files/synth600.h5;1;4;[96, 96, 96];map;9.878638365498773
+/data/karaev/binaries/synth_files/synth600.h5;1;8;[96, 96, 96];gen;44.83957146350076
+/data/karaev/binaries/synth_files/synth600.h5;1;8;[96, 96, 96];map;10.38996623499952
+/data/karaev/binaries/synth_files/synth600.h5;4;1;[96, 96, 96];gen;13.537466204001248
+/data/karaev/binaries/synth_files/synth600.h5;4;1;[96, 96, 96];map;10.182436110499111
+/data/karaev/binaries/synth_files/synth600.h5;4;4;[96, 96, 96];gen;14.162934543999654
+/data/karaev/binaries/synth_files/synth600.h5;4;4;[96, 96, 96];map;10.762916597499498
+/data/karaev/binaries/synth_files/synth600.h5;4;8;[96, 96, 96];gen;14.826484146999064
+/data/karaev/binaries/synth_files/synth600.h5;4;8;[96, 96, 96];map;11.38716711249981
+/data/karaev/binaries/synth_files/synth600.h5;8;1;[96, 96, 96];gen;10.700229938498524
+/data/karaev/binaries/synth_files/synth600.h5;8;1;[96, 96, 96];map;10.370560674498847
+/data/karaev/binaries/synth_files/synth600.h5;8;4;[96, 96, 96];gen;11.6451104079988
+/data/karaev/binaries/synth_files/synth600.h5;8;4;[96, 96, 96];map;11.187352700500924
+/data/karaev/binaries/synth_files/synth600.h5;8;8;[96, 96, 96];gen;11.426845760001015
+/data/karaev/binaries/synth_files/synth600.h5;8;8;[96, 96, 96];map;11.814682961499784

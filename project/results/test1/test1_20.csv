@@ -1,0 +1,5 @@
+1_h5_path;1_split_number;1_generator_name;avg_time
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;1;SingleReader;0.6929757649995736
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;1;BufReader4;0.6578413990000627
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;4;SingleReader;0.6900987509998231
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;4;BufReader4;0.6596713009998894

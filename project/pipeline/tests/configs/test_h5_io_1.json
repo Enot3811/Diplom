@@ -1,0 +1,231 @@
+{
+  "tests": [
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 1,
+          "generator_name": "SingleReader"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 1,
+          "generator_name": "BufReader4"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 1,
+          "generator_name": "BufReader8"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 1,
+          "generator_name": "BufReader16"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 1,
+          "generator_name": "BufReader32"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 4,
+          "generator_name": "SingleReader"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 4,
+          "generator_name": "BufReader4"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 4,
+          "generator_name": "BufReader8"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 4,
+          "generator_name": "BufReader16"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 4,
+          "generator_name": "BufReader32"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 8,
+          "generator_name": "SingleReader"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 8,
+          "generator_name": "BufReader4"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 8,
+          "generator_name": "BufReader8"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 8,
+          "generator_name": "BufReader16"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 8,
+          "generator_name": "BufReader32"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 16,
+          "generator_name": "SingleReader"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 16,
+          "generator_name": "BufReader4"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 16,
+          "generator_name": "BufReader8"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 16,
+          "generator_name": "BufReader16"
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96.h5",
+          "split_number": 16,
+          "generator_name": "BufReader32"
+        }
+      ]
+    }
+  ],
+  "generators": {
+    "SingleReader": {
+      "class": "CTSampler",
+      "crop_shape": [
+        96,
+        96,
+        96
+      ],
+      "buffer_size": 1
+    },
+    "BufReader4": {
+      "class": "CTSampler",
+      "crop_shape": [
+        96,
+        96,
+        96
+      ],
+      "buffer_size": 4
+    },
+    "BufReader8": {
+      "class": "CTSampler",
+      "crop_shape": [
+        96,
+        96,
+        96
+      ],
+      "buffer_size": 8
+    },
+    "BufReader16": {
+      "class": "CTSampler",
+      "crop_shape": [
+        96,
+        96,
+        96
+      ],
+      "buffer_size": 16
+    },
+    "BufReader32": {
+      "class": "CTSampler",
+      "crop_shape": [
+        96,
+        96,
+        96
+      ],
+      "buffer_size": 32
+    }
+  }
+}

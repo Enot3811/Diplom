@@ -1,0 +1,10 @@
+path;crop_shape;disable_order;augmentation;avg_time
+/data/karaev/binaries/synth_files/synth100_1;[96, 96, 96];False;False;5.2400785374993575
+/data/karaev/binaries/synth_files/synth100_8;[96, 96, 96];False;False;17.77386206999836
+/data/karaev/binaries/synth_files/synth100_80;[96, 96, 96];False;False;28.2026956180016
+/data/karaev/binaries/synth_files/synth300_1;[96, 96, 96];False;False;102.31514634500127
+/data/karaev/binaries/synth_files/synth300_8;[96, 96, 96];False;False;174.928233644001
+/data/karaev/binaries/synth_files/synth300_80;[96, 96, 96];False;False;201.31287293950118
+/data/karaev/binaries/synth_files/synth600_1;[96, 96, 96];False;False;229.85340620249917
+/data/karaev/binaries/synth_files/synth600_8;[96, 96, 96];False;False;250.514316352499
+/data/karaev/binaries/synth_files/synth600_80;[96, 96, 96];False;False;367.11550122800145

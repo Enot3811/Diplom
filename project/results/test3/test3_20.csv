@@ -1,0 +1,9 @@
+h5_path;split_number;buffer_size;crop_shape;aug;avg_time
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;1;1;[96, 96, 96];gen;3.884245292000287
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;1;1;[96, 96, 96];map;1.0382887729997492
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;1;4;[96, 96, 96];gen;3.7204279519996817
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;1;4;[96, 96, 96];map;1.5176113120000991
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;4;1;[96, 96, 96];gen;1.285993598999994
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;4;1;[96, 96, 96];map;1.1218264829999498
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;4;4;[96, 96, 96];gen;1.8557826330002172
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5;4;4;[96, 96, 96];map;1.6726341890002914

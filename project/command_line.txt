@@ -1,0 +1,38 @@
+Path:
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c
+
+Gen h5 synth:
+python3 ct_file_tools/creating_storages/generate_synth_h5.py --number=20 --path=/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5
+
+python3 ct_file_tools/creating_storages/generate_synth_h5.py --path=/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_1.h5 --number=10
+
+
+Gen tfrecords:
+python3 ct_file_tools/creating_storages/generate_synth_tfrecord.py --number=20 --path=/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20
+
+python3 ct_file_tools/creating_storages/generate_synth_tfrecord.py --number=20 --path=/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20_4 --num-files=4
+
+
+Create h5 from CT:
+python3 ct_file_tools/creating_storages/create_hdf5_from_ds.py --dump-buffer-size=2 --file-extension=nifti --source-dir=/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/CT --out-hdf5=/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/CT10.h5
+
+Visualize h5:
+python3 tools/visualize/visualize_dset.py --path=/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/CT10.h5
+
+Test1:
+python3 pipeline/tests/test_h5_io.py --config=pipeline/tests/configs/demo/test_h5_io_1_demo.json --out results/test1/test1_20.csv
+
+Test2:
+python3 pipeline/tests/test_h5_io.py --config=pipeline/tests/configs/demo/test_h5_io_2_demo.json --out results/test2/test_20.csv
+
+Test3:
+python3 pipeline/tests/test_h5_aug_io.py --config=pipeline/tests/configs/demo/test_aug_h5_io_demo.json --out results/test3/test3_20.csv
+
+Test4:
+python3 pipeline/tests/test_tfrecord_io.py --config=pipeline/tests/configs/demo/test_tfrecord_io_demo.json --out results/test4/test4_20.csv
+
+TestCT1:
+python3 pipeline/tests/test_h5_io.py --config=pipeline/tests/configs/demo/test_h5_io_ct_demo.json --out results/test_ct/test_ct_10.csv
+
+TestCT2:
+python3 pipeline/tests/test_h5_aug_io.py --config=pipeline/tests/configs/demo/test_aug_h5_io_ct_demo.json --out results/test_ct/test_ct_aug_10.csv

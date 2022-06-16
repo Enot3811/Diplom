@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5",
+          "split_number": 1,
+          "buffer_size": 1,
+          "crop_shape": [96, 96, 96]
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5",
+          "split_number": 1,
+          "buffer_size": 4,
+          "crop_shape": [96, 96, 96]
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5",
+          "split_number": 4,
+          "buffer_size": 1,
+          "crop_shape": [96, 96, 96]
+        }
+      ]
+    },
+    {
+      "datasets": [
+        {
+          "h5_path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20.h5",
+          "split_number": 4,
+          "buffer_size": 4,
+          "crop_shape": [96, 96, 96]
+        }
+      ]
+    }
+  ]
+}

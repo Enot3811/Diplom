@@ -1,0 +1,3 @@
+path;crop_shape;disable_order;augmentation;avg_time
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20;[96, 96, 96];False;False;1.9477135719998842
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth20_4;[96, 96, 96];False;False;1.9560692700006257

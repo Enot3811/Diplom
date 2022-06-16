@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "datasets": [
+        {
+          "h5_path": "/data/karaev/binaries/diplom_ct.h5",
+          "split_number": 4,
+          "generator_name": "BufReader4"
+        }
+      ]
+    }
+  ],
+  "generators": {
+    "BufReader4": {
+      "class": "CTSampler",
+      "crop_shape": [
+        96,
+        96,
+        96
+      ],
+      "buffer_size": 4
+    }
+  }
+}

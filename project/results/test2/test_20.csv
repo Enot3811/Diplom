@@ -1,0 +1,5 @@
+1_h5_path;1_split_number;1_generator_name;2_h5_path;2_split_number;2_generator_name;avg_time
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_1.h5;1;SingleReader;/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_2.h5;1;SingleReader;1.0636401910005588
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_1.h5;4;SingleReader;/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_2.h5;4;SingleReader;1.104509295000753
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_1.h5;1;BufReader4;/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_2.h5;1;BufReader4;0.8571996569999101
+/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_1.h5;4;BufReader4;/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth10_2.h5;4;BufReader4;0.9732181409999612

@@ -1,0 +1,3 @@
+h5_path;split_number;buffer_size;crop_shape;aug;avg_time
+/data/karaev/binaries/diplom_ct.h5;1;1;[96, 96, 96];gen;23.008857254499162
+/data/karaev/binaries/diplom_ct.h5;1;1;[96, 96, 96];map;19.22779876250206

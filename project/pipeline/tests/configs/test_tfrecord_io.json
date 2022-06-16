@@ -1,0 +1,22 @@
+{
+    "tests": [
+        {
+            "path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96_1",
+            "crop_shape": [96, 96, 96],
+            "disable_order": false,
+            "augmentation": false
+        },
+        {
+            "path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96_8",
+            "crop_shape": [96, 96, 96],
+            "disable_order": false,
+            "augmentation": false
+        },
+        {
+            "path": "/media/enot/21502c86-03a5-4632-8adc-ba8158fa922c/data/synth96_80",
+            "crop_shape": [96, 96, 96],
+            "disable_order": false,
+            "augmentation": false
+        }
+    ]
+}
